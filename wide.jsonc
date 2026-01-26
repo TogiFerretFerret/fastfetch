@@ -105,8 +105,11 @@
             "key": " "
         	,"text": "bash /home/river/.config/fastfetch/segments/seg1112.sh"
 		},
-        
-                
+        {
+            "type": "command",
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg1314.sh"
+		},
         {
             "type": "custom",
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
