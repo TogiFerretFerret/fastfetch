@@ -5,7 +5,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width":18
+            "width":25
         },
         "bar": {
             "border": null,
@@ -17,6 +17,10 @@
         }
     },
 "modules": [
+	{
+            "type": "editor",
+            "key": "{#35}║{#37} 󱞎 EDITOR   ▌                                         {#35}║"
+        }
            ]
     }
 

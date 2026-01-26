@@ -82,12 +82,12 @@
             "type": "command",
             "key": " "
         	,"text": "bash /home/river/.config/fastfetch/segments/seg56.sh"
+		},{
+            "type": "command",
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg78.sh"
 		},
-                {
-            "type": "battery",
-            "key": "{#35}║{#37}  PWR CELL ▌                                         {#35}║"
-        },
-        {
+                       {
             "type": "custom",
             "format": "{#35}╠══════════════════════════════════════════════════════╬══════════════════════════════════════════════════════╣"
         },
