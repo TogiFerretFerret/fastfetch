@@ -106,11 +106,7 @@
         	,"text": "bash /home/river/.config/fastfetch/segments/seg1112.sh"
 		},
         
-                {
-            "type": "wm",
-            "key": "{#35}║{#37}  VISUAL   ▌                                         {#35}║",
-            "format": "{2} ({3})"
-        },
+                
         {
             "type": "custom",
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
