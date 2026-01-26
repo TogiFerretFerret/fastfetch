@@ -111,11 +111,11 @@
         	,"text": "bash /home/river/.config/fastfetch/segments/seg1314.sh"
 		},
         {
-            "type": "custom",
-            "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
-            "format": "Asahi (Apple Silicon)"
-        },
-
+            "type": "command",
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg1516.sh"
+		},
+        
                 {
             "type": "custom",
             "format": "{#35}╚══════════════════════════════════════════════════════╩══════════════════════════════════════════════════════╝"

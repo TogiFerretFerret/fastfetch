@@ -5,7 +5,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width":25
+            "width":24
         },
         "bar": {
             "border": null,
@@ -17,8 +17,9 @@
         }
     },
 "modules": [{
-            "type": "packages",
-            "key": "{#35}║{#37} 󰏖 PAYLOAD  ▌                                         {#35}║"
+            "type": "command",
+            "key": "{#35}║{#37}  OS AGE   ▌                                         {#35}║",
+            "text": "stat -c %w / | cut -d' ' -f1"
         }
            ]
     }
