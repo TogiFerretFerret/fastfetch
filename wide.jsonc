@@ -102,12 +102,7 @@
         	,"text": "bash /home/river/.config/fastfetch/segments/seg910.sh"
 		},
         
-        {
-            "type": "kernel",
-            "key": "{#35}║{#37}  KERNEL   ▌                                         {#35}║",
-        	"format": "{1} {2~0,7} {2~12,50}"
-		},
-        {
+                {
             "type": "wm",
             "key": "{#35}║{#37}  VISUAL   ▌                                         {#35}║",
             "format": "{2} ({3})"
