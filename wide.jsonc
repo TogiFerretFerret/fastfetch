@@ -52,7 +52,7 @@
 
         {
             "type": "custom",
-            "format": "{#35}╔══════════════════════════════════════════════════════╦══════════════════════════════════════════════════════╗"
+            "format": "{#35}╔══════════════════════════════════════════════════════╤══════════════════════════════════════════════════════╗"
         },
         {
             "type": "title",
@@ -61,23 +61,24 @@
         },
         {
             "type": "custom",
-            "format": "{#35}╠══════════════════════════════════════════════════════╬"
+            "format": "{#35}╠══════════════════════════════════════════════════════╬══════════════════════════════════════════════════════╣"
         },
 
         // --- SECTION 1: HARDWARE (EVA STATUS) ---
         {
             "type": "custom",
-            "format": "{#35}║ {#36}EVA-01 HARDWARE STATUS                               {#35}║"
+            "format": "{#35}║ {#36}EVA-01 HARDWARE STATUS                               {#35}║ {#36}LANGUAGE PROTOCOLS                                   {#35}║"
         },
         {
             "type": "command",
-            "key": "{#35}║{#37}  LCL(RAM) ▌                                         {#35}║"
-        	,"text": "fastfetch --pipe false --config /home/river/.config/fastfetch/modules/ram.jsonc"
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg12.sh"
 		},
         {
-            "type": "swap",
-            "key": "{#35}║{#37} 󰓡 SWAP     ▌                                         {#35}║"
-        },
+            "type": "command",
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg34.sh"
+		},
         {
             "type": "disk",
             "key": "{#35}║{#37}  ENT PLUG ▌                                         {#35}║",
@@ -89,7 +90,7 @@
         },
         {
             "type": "custom",
-            "format": "{#35}╠══════════════════════════════════════════════════════╬"
+            "format": "{#35}╠══════════════════════════════════════════════════════╬══════════════════════════════════════════════════════╣"
         },
 
         // --- SECTION 2: DESKTOP (COMMAND UI) ---
@@ -117,66 +118,10 @@
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
             "format": "Asahi (Apple Silicon)"
         },
-        {
-            "type": "custom",
-            "format": "{#35}╠══════════════════════════════════════════════════════╬"
-        },
 
-        // --- SECTION 3: DEVELOPMENT (LANGUAGE PROTOCOLS) ---
-        {
+                {
             "type": "custom",
-            "format": "{#35}║ {#36}LANGUAGE PROTOCOLS                                   {#35}║"
-        },
-        {
-            "type": "command",
-            "key": "{#35}║{#37}  RUST     ▌                                         {#35}║",
-            "text": "rustc --version | awk '{print $2}'"
-        },
-        {
-            "type": "command",
-            "key": "{#35}║{#37}  NODE     ▌                                         {#35}║",
-            "text": "node --version 2>/dev/null || echo 'N/A'"
-        },
-        {
-            "type": "command",
-            "key": "{#35}║{#37}  GO       ▌                                         {#35}║",
-            "text": "go version 2>/dev/null | awk '{print $3}' || echo 'N/A'"
-        },
-        {
-            "type": "command",
-            "key": "{#35}║{#37} 󰊢 GIT      ▌                                         {#35}║",
-            "text": "git --version | awk '{print $3}'"
-        },
-        {
-            "type": "editor",
-            "key": "{#35}║{#37} 󱞎 EDITOR   ▌                                         {#35}║"
-        },
-        {
-            "type": "custom",
-            "format": "{#35}╠══════════════════════════════════════════════════════╬"
-        },
-
-        // --- SECTION 4: MISSION STATUS (UPTIME) ---
-        {
-            "type": "custom",
-            "format": "{#35}║ {#36}MISSION CLOCK                                        {#35}║"
-        },
-        {
-            "type": "uptime",
-            "key": "{#35}║{#37}  ACTIVE   ▌                                         {#35}║"
-        },
-        {
-            "type": "packages",
-            "key": "{#35}║{#37} 󰏖 PAYLOAD  ▌                                         {#35}║"
-        },
-        {
-            "type": "command",
-            "key": "{#35}║{#37}  OS AGE   ▌                                         {#35}║",
-            "text": "stat -c %w / | cut -d' ' -f1"
-        },
-        {
-            "type": "custom",
-            "format": "{#35}╚══════════════════════════════════════════════════════╝"
+            "format": "{#35}╚══════════════════════════════════════════════════════╩══════════════════════════════════════════════════════╝"
         }
     ]
     }

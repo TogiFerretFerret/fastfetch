@@ -1,0 +1,29 @@
+
+	{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": null,
+    "display": {
+        "separator": "",
+        "key": {
+            "width":26 
+        },
+        "bar": {
+            "border": null,
+            "char": {
+                "elapsed": "█",
+                "total": "░"
+            },
+            "width": 125600
+        }
+    },
+"modules": [
+        {
+            "type": "command",
+            "key": "{#35}║{#37} GO/ NODE ▌                                         {#35}║",
+            "text": "echo \"$(go version 2>/dev/null | awk '{print $3}' || echo 'N/A') / $(node --version 2>/dev/null || echo 'N/A')\""
+        }
+    ]
+    }
+
+	
+

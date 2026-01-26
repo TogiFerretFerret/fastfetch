@@ -171,7 +171,7 @@
         {
             "type": "command",
             "key": "{#35}║{#37}  PLAYBACK ▌                                         {#35}║",
-            "text": "bash /home/river/.config/waybar/scripts/mpk.sh"
+            "text": "bash /home/river/.config/waybar/scripts/mpk.sh|cut -c -30"
         },
         {
             "type": "custom",
