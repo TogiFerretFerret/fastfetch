@@ -1,0 +1,183 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    },
+    "display": {
+        "separator": "",
+        "key": {
+            "width": 18
+        },
+        "bar": {
+            "border": null,
+            "char": {
+                "elapsed": "█",
+                "total": "░"
+            },
+            "width": 35
+        }
+    },
+"modules": [
+{
+            "type": "custom",
+            "format": "{#35}╔══●{#@37}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{#35}●══╗"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}███╗   ██╗███████╗██████╗ ██╗   ██╗  {#@220}EVA-00 SYSTEM   {#35}║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}████╗  ██║██╔════╝██╔══██╗██║   ██║  {#@220}MAGI INTERFACE {#35} ║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}██╔██╗ ██║█████╗  ██████╔╝██║   ██║                  {#35}║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}██║╚██╗██║██╔══╝  ██╔══██╗╚██╗ ██╔╝  {#@35}CLASSIFIED     {#35} ║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}██║ ╚████║███████╗██║  ██║ ╚████╔╝   {#@35}ACCESS ONLY    {#35} ║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}║ {#@46}╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝  ╚═══╝                   {#35} ║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}╚══●{#@37}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{#35}●══╝"
+        },
+
+        {
+            "type": "custom",
+            "format": "{#35}╔══════════════════════════════════════════════════════╗"
+        },
+        {
+            "type": "title",
+            "format": "{#35}║ {#36}PILOT:{#37} {user-name}                           {#36}UNIT:{#37} {host-name}{#35} ║"
+
+        },
+
+        {
+            "type": "custom",
+            "format": "{#35}╠══════════════════════════════════════════════════════╣"
+        },
+        // --- SECTION 1: HARDWARE (EVA STATUS) ---
+        {
+            "type": "custom",
+            "format": "{#35}║ {#36}EVA-01 HARDWARE STATUS                               {#35}║"
+        },
+        {
+            "type": "memory",
+            "key": "{#35}║{#37}  LCL(RAM) ▌                                         {#35}║"
+        },
+        {
+            "type": "swap",
+            "key": "{#35}║{#37} 󰓡 SWAP     ▌                                         {#35}║"
+        },
+        {
+            "type": "disk",
+            "key": "{#35}║{#37}  ENT PLUG ▌                                         {#35}║",
+            "folders": "/"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}╠══════════════════════════════════════════════════════╣"
+        },
+
+        // --- SECTION 2: DESKTOP (COMMAND UI) ---
+        {
+            "type": "custom",
+            "format": "{#35}║ {#36}COMMAND INTERFACE                              {#35}      ║"
+        },
+        {
+            "type": "os",
+            "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║",
+            "format": "{2} {8~0,2}"
+        },
+        {
+            "type": "kernel",
+            "key": "{#35}║{#37}  KERNEL   ▌                                         {#35}║",
+        	"format": "{1} {2~0,7} {2~12,50}"
+		},
+        {
+            "type": "wm",
+            "key": "{#35}║{#37}  VISUAL   ▌                                         {#35}║",
+            "format": "{2} ({3})"
+        },
+        {
+            "type": "custom",
+            "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
+            "format": "Asahi (Apple Silicon)"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}╠══════════════════════════════════════════════════════╣"
+        },
+
+        // --- SECTION 3: DEVELOPMENT (LANGUAGE PROTOCOLS) ---
+        {
+            "type": "custom",
+            "format": "{#35}║ {#36}LANGUAGE PROTOCOLS                                   {#35}║"
+        },
+        {
+            "type": "command",
+            "key": "{#35}║{#37}  RUST     ▌                                         {#35}║",
+            "text": "rustc --version | awk '{print $2}'"
+        },
+		 {
+            "type": "command",
+            "key": "{#35}║{#37}  NODE     ▌                                         {#35}║",
+            "text": "node --version 2>/dev/null || echo 'N/A'"
+        },
+        {
+            "type": "command",
+            "key": "{#35}║{#37}  GO       ▌                                         {#35}║",
+            "text": "go version 2>/dev/null | awk '{print $3}' || echo 'N/A'"
+        },
+        {
+            "type": "command",
+            "key": "{#35}║{#37} 󰊢 GIT      ▌                                         {#35}║",
+            "text": "git --version | awk '{print $3}'"
+        },
+        {
+            "type": "editor",
+            "key": "{#35}║{#37} 󱞎 EDITOR   ▌                                         {#35}║"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}╠══════════════════════════════════════════════════════╣"
+        },
+
+        // --- SECTION 4: MISSION STATUS (UPTIME) ---
+        {
+            "type": "custom",
+            "format": "{#35}║ {#36}MISSION STATUS                                       {#35}║"
+        },
+        {
+            "type": "uptime",
+            "key": "{#35}║{#37}  ACTIVE   ▌                                         {#35}║"
+        },
+        {
+            "type": "packages",
+            "key": "{#35}║{#37} 󰏖 PAYLOAD  ▌                                         {#35}║"
+        },
+        {
+            "type": "battery",
+            "key": "{#35}║{#37}  PWR CELL ▌                                         {#35}║"
+        },
+        {
+            "type": "command",
+            "key": "{#35}║{#37}  PLAYBACK ▌                                         {#35}║",
+            "text": "bash /home/river/.config/waybar/scripts/mpk.sh"
+        },
+        {
+            "type": "custom",
+            "format": "{#35}╚══════════════════════════════════════════════════════╝"
+        }
+    ]
+    }
+
+	
