@@ -78,13 +78,12 @@
             "type": "command",
             "key": " "
         	,"text": "bash /home/river/.config/fastfetch/segments/seg34.sh"
+		},{
+            "type": "command",
+            "key": " "
+        	,"text": "bash /home/river/.config/fastfetch/segments/seg56.sh"
 		},
-        {
-            "type": "disk",
-            "key": "{#35}║{#37}  ENT PLUG ▌                                         {#35}║",
-            "folders": "/"
-        },
-        {
+                {
             "type": "battery",
             "key": "{#35}║{#37}  PWR CELL ▌                                         {#35}║"
         },
