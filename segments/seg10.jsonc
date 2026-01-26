@@ -5,7 +5,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width":18
+            "width":24
         },
         "bar": {
             "border": null,
@@ -16,7 +16,10 @@
             "width": 125600
         }
     },
-"modules": [
+"modules": [{
+            "type": "uptime",
+            "key": "{#35}║{#37}  ACTIVE   ▌                                         {#35}║"
+        }
            ]
     }
 
