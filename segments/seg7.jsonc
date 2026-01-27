@@ -18,7 +18,8 @@
     },
 "modules": [{
             "type": "battery",
-            "key": "{#35}║{#37}  PWR CELL ▌                                         {#35}║"
+            "key": "{#35}║{#37}  PWR CELL ▌                                         {#35}║",
+			"format": "{4} ({15} remaining)"
         }
            ]
     }
