@@ -5,7 +5,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width":24
+            "width":18
         },
         "bar": {
             "border": null,
@@ -18,8 +18,9 @@
     },
 "modules": [{
             "type": "command",
-            "key": "{#35}║{#37}  PLAYBACK ▌                                                        {#35}║",
-            "text": "bash /home/river/.config/waybar/scripts/mpk.sh|cut -c -23"
+            "key": "{#35}║{#37}  PLAYBACK ▌                                         {#35}║",
+			"text": "bash /home/river/.config/waybar/scripts/mpk.sh|cut -c -37"
+
         }
 
            ]
