@@ -17,8 +17,9 @@
         }
     },
 "modules": [{
-            "type": "packages",
-            "key": "{#35}║{#37} 󰏖 PAYLOAD  ▌                                         {#35}║"
+            "type": "custom",
+            "key": "{#35}║{#37} 󰏖 PAYLOAD  ▌                                         {#35}║",
+			"format": "lots of em, probably"
         }
            ]
     }
