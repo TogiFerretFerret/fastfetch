@@ -20,7 +20,7 @@
         {
             "type": "os",
             "key": " ",
-			"format": "{2} {8~0,2}"
+			"format": "Asahi ALARM (Arch Linux)"
         },{
             "type": "kernel",
             "key": " ",
