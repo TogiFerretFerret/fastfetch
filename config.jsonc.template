@@ -3,7 +3,6 @@
     "logo": {
         "source": "/home/river/Pictures/Wallpapers/epicfetch.png",
         "type": "kitty-direct",
-        "width": 44,
         "height": 22
     },
 	"display": {
