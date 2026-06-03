@@ -18,7 +18,7 @@
     },
 "modules": [{
             "type": "custom",
-            "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
+            "key": "\u001b[38;2;247;164;188m║\u001b[38;2;232;224;230m 󰾲 G-DRIVER ▌                                         \u001b[38;2;247;164;188m║",
             "format": "Asahi (Apple Silicon)"
         }
 

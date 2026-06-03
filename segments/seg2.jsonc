@@ -18,7 +18,7 @@
 "modules": [
         {
             "type": "command",
-            "key": "{#35}║{#37}  RUST     ▌                                         {#35}║",
+            "key": "\u001b[38;2;247;164;188m║\u001b[38;2;232;224;230m  RUST     ▌                                         \u001b[38;2;247;164;188m║",
             "text": "rustc --version | awk '{print $2}'"
         }
     ]
