@@ -94,12 +94,12 @@
         {
             "type": "custom",
             "format": "{#35}║ {#36}COMMAND INTERFACE                              {#35}      ║"
-        },
-        {
+        },{
             "type": "os",
             "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║",
-            "format": "{2} {8~0,2}"
+            "format": "Asahi ALARM (Arch Linux)"
         },
+
         {
             "type": "kernel",
             "key": "{#35}║{#37}  KERNEL   ▌                                         {#35}║",
