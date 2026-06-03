@@ -4,7 +4,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width": 18
+            "width": 16
         },
         "bar": {
             "border": null,
@@ -18,7 +18,7 @@
 "modules": [
         {
             "type": "memory",
-            "key": "{#35}║{#37}  LCL(RAM) ▌                                  {#35}║"
+            "key": "{#35}║{#37}  LCL(RAM) ▌                                         {#35}║"
         }
     ]
     }

@@ -4,7 +4,7 @@
     "display": {
         "separator": "",
         "key": {
-            "width": 18
+            "width": 16
         },
         "bar": {
             "border": null,
@@ -18,7 +18,7 @@
 "modules": [
         {
             "type": "command",
-            "key": "{#35}║{#37}  RUST     ▌                                   {#35}║",
+            "key": "{#35}║{#37}  RUST     ▌                                         {#35}║",
             "text": "rustc --version | awk '{print $2}'"
         }
     ]
