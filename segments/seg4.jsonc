@@ -19,7 +19,7 @@
 "modules": [
         {
             "type": "command",
-            "key": "\u001b[38;2;247;164;188m║\u001b[38;2;232;224;230m GO/ NODE ▌                                         \u001b[38;2;247;164;188m║",
+            "key": "\u001b[38;2;206;142;231m║\u001b[38;2;223;227;232m GO/ NODE ▌                                         \u001b[38;2;206;142;231m║",
             "text": "echo \"$(go version 2>/dev/null | awk '{print $3}' || echo 'N/A') / $(node --version 2>/dev/null || echo 'N/A')\""
         }
     ]
