@@ -17,9 +17,9 @@
         }
     },
 "modules": [{
-            "type": "gpu",
+            "type": "command",
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
-            "format": "{1} {2~0,25}"
+            "text": "nvidia-smi --query-gpu=name --format=csv,noheader"
         }
 
            ]

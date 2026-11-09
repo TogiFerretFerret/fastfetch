@@ -95,8 +95,7 @@
             "format": "{#35}║ {#36}COMMAND INTERFACE                              {#35}      ║"
         },{
             "type": "os",
-            "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║",
-            "format": "Asahi ALARM (Arch Linux)"
+            "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║"
         },
 
         {
@@ -110,9 +109,9 @@
             "format": "{2} ({3})"
         },
         {
-            "type": "custom",
+            "type": "command",
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
-            "format": "Asahi (Apple Silicon)"
+            "text": "nvidia-smi --query-gpu=name --format=csv,noheader"
         },
         {
             "type": "custom",
