@@ -19,7 +19,7 @@
 "modules": [{
             "type": "command",
             "key": "{#35}║{#37}  PLAYBACK ▌                                         {#35}║",
-			"text": "bash /home/river/.config/waybar/scripts/mpk.sh|cut -c -37"
+			"text": "bash /home/river/.config/fastfetch/mpk.sh|cut -c -37"
 
         }
 

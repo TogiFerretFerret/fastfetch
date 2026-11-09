@@ -9,6 +9,8 @@ COLORS = {
 }
 
 def render_screen(screen):
+    if not screen.buffer:
+        return
     for y in range(max(screen.buffer.keys()) + 1):
         line_str = ""
         row = screen.buffer[y]

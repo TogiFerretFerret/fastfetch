@@ -1,10 +1,8 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "/home/river/Pictures/Wallpapers/nyaa.png",
-        "type": "kitty-direct",
-        "height": 18,
-		"width": 40
+        "type": "builtin",
+        "source": "arch"
     },
 	"display": {
         "separator": "",
@@ -60,7 +58,7 @@
         },
         {
             "type": "title",
-            "format": "{#35}║ {#36}PILOT:{#37} {user-name}                           {#36}UNIT:{#37} {host-name}{#35} ║"
+            "format": "{#35}║ {#36}PILOT:{#37} {user-name}                           {#36}UNIT:{#37} {host-name}{#35}║"
 
         },
 
@@ -176,7 +174,7 @@
         {
             "type": "command",
             "key": "{#35}║{#37}  PLAYBACK ▌                                         {#35}║",
-            "text": "bash /home/river/.config/waybar/scripts/mpk.sh|cut -c -37"
+            "text": "bash /home/river/.config/fastfetch/mpk.sh|cut -c -37"
         },
         {
             "type": "custom",
