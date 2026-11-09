@@ -18,8 +18,7 @@
     },
 "modules": [{
             "type": "os",
-            "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║",
-            "format": "Asahi ALARM (Arch Linux)"
+            "key": "{#35}║{#37}  SYSTEM   ▌                                         {#35}║"
         }
            ]
     }

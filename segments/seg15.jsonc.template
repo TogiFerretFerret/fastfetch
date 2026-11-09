@@ -17,9 +17,9 @@
         }
     },
 "modules": [{
-            "type": "custom",
+            "type": "gpu",
             "key": "{#35}║{#37} 󰾲 G-DRIVER ▌                                         {#35}║",
-            "format": "Asahi (Apple Silicon)"
+            "format": "{1} {2~0,25}"
         }
 
            ]
